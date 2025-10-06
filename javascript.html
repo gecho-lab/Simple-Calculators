@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator project</title>
+    <link rel="stylesheet" href="style/calculator.css">
+  </head>
+  <body>
+    <div id="Calculator">
+        <input id="Display" type="text" readonly>
+        <div id="key">
+          <button onclick="allColume('7')">7</button>
+          <button onclick="allColume('8')">8</button>
+          <button onclick="allColume('9')">9</button>
+          <button onclick="allColume('/')" class="different-opration">/</button>
+          <button onclick="allColume('4')">4</button>
+          <button onclick="allColume('5')">5</button>
+          <button onclick="allColume('6')">6</button>
+          <button onclick="allColume('*')" class="different-opration">x</button>
+          <button onclick="allColume('3')">3</button>
+          <button onclick="allColume('2')">2</button>
+          <button onclick="allColume('1')">1</button>
+          <button onclick="allColume('-')" class="different-opration">-</button>
+          <button onclick="allColume('0')">0</button>
+          <button onclick="allColume('.')">.</button>
+          <button onclick="calculat()">=</button>
+          <button onclick="allColume('+')" class="different-opration">+</button>
+          <button onclick="clearAll()">C</button>
+        </div>
+    </div>
+    <script src="javascript/calculator.js"></script>
+  </body>
+</html>
